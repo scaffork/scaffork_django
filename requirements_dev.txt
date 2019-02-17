@@ -11,3 +11,6 @@ pylint-django
 black
 pep8
 coveralls
+
+sphinx
+recommonmark

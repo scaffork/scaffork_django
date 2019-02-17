@@ -18,7 +18,7 @@
 from recommonmark.parser import CommonMarkParser
 
 # -- Project information -----------------------------------------------------
- 
+
 project = "scaffork-django"
 copyright = "2019, Ricardo Baltazar Chaves"
 author = "Ricardo Baltazar Chaves"

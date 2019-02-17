@@ -9,14 +9,14 @@ spec:
   template:
     metadata:
       labels:
-        project: statue-of-liberty-dev
+        project: google-cloud-project
         name: scaffork_django-django-deploy
         environment: dev
         tier: backend
     spec:
       containers:
         - name: scaffork_django-django
-          image: gcr.io/statue-of-liberty-dev/scaffork_django-django:dev
+          image: gcr.io/google-cloud-project/scaffork_django-django:dev
           command: ["python", "manage.py", "runserver", "0.0.0.0:8000"]
           envFrom:
            - configMapRef:
@@ -39,7 +39,7 @@ spec:
         - image: b.gcr.io/cloudsql-docker/gce-proxy:1.11
           name: cloudsql-proxy
           command: ["/cloud_sql_proxy", "--dir=/cloudsql",
-                    "-instances=statue-of-liberty-dev:us-central1:pentagon-dev=tcp:5432",
+                    "-instances=google-cloud-project:us-central1:pentagon-dev=tcp:5432",
                     "-credential_file=/secrets/cloudsql/credentials.json"]
           volumeMounts:
             - name: cloudsql-oauth-credentials
@@ -68,7 +68,7 @@ metadata:
   name: scaffork_django-django-service
   labels:
     name: scaffork_django-django-service
-    project: statue-of-liberty-dev
+    project: google-cloud-project
 spec:
   selector: 
     name: scaffork_django-django-deploy

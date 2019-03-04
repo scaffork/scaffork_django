@@ -4,7 +4,7 @@ psycopg2==2.7.7
 
 django-redis==4.10.0
 
-markdown
+markdown==3.0.1
 djangorestframework
 django-filter
 

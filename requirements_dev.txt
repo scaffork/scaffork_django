@@ -10,7 +10,7 @@ flake8-django
 pylint-django==2.0.6
 black==19.3b0
 pep8==1.7.1
-coveralls
+coveralls==1.6.0
 
 sphinx
 recommonmark

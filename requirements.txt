@@ -2,7 +2,7 @@ django==2.2
 gunicorn==19.9.0
 psycopg2==2.8.1
 
-django-redis
+django-redis==4.10.0
 
 markdown
 djangorestframework

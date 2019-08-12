@@ -8,7 +8,7 @@ tox==3.13.2
 pytest==5.0.1
 flake8-django
 pylint-django==2.0.11
-black
+black==19.3b0
 pep8
 coveralls
 

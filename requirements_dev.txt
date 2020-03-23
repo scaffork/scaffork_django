@@ -1,5 +1,5 @@
 -r requirements.txt
-ptvsd
+ptvsd==4.3.2
 pylint
 autopep8
 coverage

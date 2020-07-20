@@ -1,5 +1,5 @@
 django==3.0.8
-gunicorn
+gunicorn==20.0.4
 psycopg2
 
 django-redis

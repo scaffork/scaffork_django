@@ -6,6 +6,6 @@ django-redis==4.12.1
 
 markdown==3.3.2
 djangorestframework==3.12.1
-django-filter
+django-filter==2.4.0
 
 django-health-check

@@ -13,4 +13,4 @@ pep8==1.7.1
 coveralls==3.0.1
 
 sphinx==3.5.2
-recommonmark
+recommonmark==0.7.1

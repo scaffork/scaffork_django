@@ -5,7 +5,7 @@ autopep8==1.5.7
 coverage==5.5
 pre-commit==2.12.1
 tox==3.23.0
-pytest
+pytest==6.2.3
 flake8-django
 pylint-django
 black

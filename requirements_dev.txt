@@ -3,7 +3,7 @@ ptvsd==4.3.2
 pylint==2.9.5
 autopep8==1.5.7
 coverage==5.5
-pre-commit
+pre-commit==2.13.0
 tox
 pytest
 flake8-django

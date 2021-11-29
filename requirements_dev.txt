@@ -1,6 +1,6 @@
 -r requirements.txt
 ptvsd==4.3.2
-pylint
+pylint==2.12.1
 autopep8
 coverage
 pre-commit

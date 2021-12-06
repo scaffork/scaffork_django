@@ -4,7 +4,7 @@ pylint==2.12.2
 autopep8==1.6.0
 coverage==6.2
 pre-commit==2.16.0
-tox
+tox==3.24.4
 pytest
 flake8-django
 pylint-django

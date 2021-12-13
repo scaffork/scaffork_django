@@ -12,5 +12,5 @@ black==21.12b0
 pep8==1.7.1
 coveralls==3.3.1
 
-sphinx
+sphinx==4.3.1
 recommonmark

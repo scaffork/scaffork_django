@@ -1,11 +1,11 @@
-django
-gunicorn
-psycopg2
+django==4.0
+gunicorn==20.1.0
+psycopg2==2.9.2
 
-django-redis
+django-redis==5.1.0
 
-markdown
-djangorestframework
-django-filter
+markdown==3.3.6
+djangorestframework==3.13.1
+django-filter==21.1
 
-django-health-check
+django-health-check==3.16.5
